@@ -1,0 +1,19 @@
+version: "3.5"
+
+services:
+  web:
+    container_name: mini-blog-web
+    build: .
+    env_file: 
+      - .env
+    # volumes:
+      # - /docker/volumes/mini-blog-web/uploads:/usr/src/app/client/static/uploads
+    ports:
+      - "30036:${PORT}"
+    networks:
+      - sertis-take-home
+
+networks:
+  sertis-take-home:
+    external: 
+      name: sertis-take-home
