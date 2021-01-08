@@ -9,7 +9,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "prod": "next build && next start"
+    "prod": "next build && next start",
+    "test": "jest" 
   },
   "prettier": {
     "singleQuote": true,

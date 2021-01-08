@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react';
 import App, { AppInitialProps } from 'next/app';
 import cookie from 'cookie';
 import { CookieMessage } from '../@types';
-import { AuthProvider } from '../providers/Auth';
+import { AuthProvider } from '@providers/Auth';
 import 'antd/dist/antd.less';
 import '@assets/fonts.less';
 import Head from 'next/head';

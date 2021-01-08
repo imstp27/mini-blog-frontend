@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardForm component should match snapshot 1`] = `
+<ForwardRef(InternalForm)
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  onFinish={[Function]}
+>
+  <FormItem
+    name="name"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="card name"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    name="status"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+      ]
+    }
+  >
+    <ForwardRef(InternalSelect)
+      allowClear={true}
+      placeholder="Select a status"
+    >
+      <Option
+        value="new"
+      >
+        New
+      </Option>
+      <Option
+        value="publish"
+      >
+        Publish
+      </Option>
+      <Option
+        value="draft"
+      >
+        Draft
+      </Option>
+      <Option
+        value="banned"
+      >
+        Banned
+      </Option>
+    </ForwardRef(InternalSelect)>
+  </FormItem>
+  <FormItem
+    name="content"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+      ]
+    }
+  >
+    <ForwardRef
+      placeholder="content"
+    />
+  </FormItem>
+  <FormItem
+    name="category"
+    rules={
+      Array [
+        Object {
+          "required": true,
+        },
+      ]
+    }
+  >
+    <ForwardRef(InternalSelect)
+      allowClear={true}
+      placeholder="Select a category"
+    >
+      <Option
+        value="biology"
+      >
+        Biology
+      </Option>
+      <Option
+        value="finance"
+      >
+        Finance
+      </Option>
+      <Option
+        value="chemistry"
+      >
+        Chemistry
+      </Option>
+      <Option
+        value="engineering"
+      >
+        Engineering
+      </Option>
+      <Option
+        value="health"
+      >
+        Health
+      </Option>
+      <Option
+        value="sociology"
+      >
+        Sociology
+      </Option>
+      <Option
+        value="space"
+      >
+        Space
+      </Option>
+      <Option
+        value="art"
+      >
+        Art
+      </Option>
+    </ForwardRef(InternalSelect)>
+  </FormItem>
+  <FormItem>
+    <Button
+      block={true}
+      htmlType="submit"
+      id="submit"
+      type="primary"
+    >
+      Submit
+    </Button>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

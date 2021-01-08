@@ -4,7 +4,7 @@ import { MyCardProps } from './Card';
 
 const { Option } = Select;
 
-interface CardFormProps {
+export interface CardFormProps {
   onSubmit: (values: any, isEdit: boolean) => void;
   editData: MyCardProps | null;
 }
@@ -56,7 +56,7 @@ export const CardForm = (props: CardFormProps) => {
         </Select>
       </Form.Item>
       <Form.Item>
-        <Button type="primary" htmlType="submit" block>
+        <Button id="submit" type="primary" htmlType="submit" block>
           Submit
         </Button>
       </Form.Item>

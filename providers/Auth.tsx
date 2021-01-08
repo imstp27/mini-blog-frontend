@@ -7,7 +7,6 @@ type AuthContext = {
 
 const AuthContext = React.createContext<AuthContext>({
   isAuthenticated: false,
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
   setAuthenticated: () => {},
 });
 

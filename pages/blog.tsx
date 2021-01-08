@@ -2,7 +2,7 @@ import { Row, Col, Button, Modal, message, Typography } from 'antd';
 import React, { useEffect, useState } from 'react';
 import Card, { MyCardProps } from '@components/Card';
 import styled from 'styled-components';
-import withAuth from 'providers/withAuth';
+import withAuth from '@providers/withAuth';
 import { addNewCardAPI, editCardAPI, daleteCardAPI, fetchAllCardsAPI } from '@api/cards';
 import { NextPage } from 'next';
 import Cookies from 'cookies';
